@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f6f6f6;
+ }
+.header_logo {
+    height: 40px;
+    object-fit: contain;
+    width: 90px;
+}
+ 
+.header_icon {
+    padding: 20px;
+}
+.header_icon :hover {
+    background-color: #ebebeb;
+}
